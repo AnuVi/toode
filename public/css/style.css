@@ -1,0 +1,139 @@
+/*Added styles*/
+/*
+=general
+=margins&paddings
+=colors
+=media quieries
+
+
+*/
+
+/*=general***********************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+
+body {
+	font-family: 'Lato', sans-serif !important;
+	
+}
+
+label{
+	font-weight:normal;
+}
+/*=general end ******************************************************************/
+
+/*=margins&paddings******************************************************************/
+
+.my-20{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.mb-20{
+	margin-bottom: 20px
+}
+
+.btn.ml-20{
+	margin-left:20px;
+}
+
+.pt-8{
+	padding-top:8px;
+}
+
+.p-5{
+	padding:5px;
+}
+
+.pr-20{
+	padding-right: 40px
+}
+
+
+/*=margins&paddings end******************************************************************/
+
+/*=colors ******************************************************************/
+
+.inf{
+	color:#ddd;
+}
+
+
+
+a.inv-del{
+	color:#eee;
+
+}
+
+a.inv-del:hover{
+	color:#a94442;
+	
+}
+
+.navbar .nav li a.bg-success:hover{
+	background-color: #29c529;
+}
+
+
+.prdct-ttl{
+	color:#3C3659;
+}
+
+.prc-bg {
+	background-color: #9A8B85;
+}
+
+.text-white{
+	color:#fff;
+}
+
+
+.btn-default{
+	border-color: #C8B697;
+}
+
+.n-lnk{
+	color:#333;
+}
+.n-lnk:hover{
+	text-decoration: none;
+	color:#333;
+}
+
+/*=colors end******************************************************************/
+
+@media only screen and (max-width : 600px) {
+
+	h1{
+		font-size:24px;
+	}
+	.media-left{
+		display:block;
+		text-align:center;
+		padding-right:0;
+	}
+
+	.media-body h3, .media-body h3+p{
+		text-align:center !important;
+	}
+
+	.media-body h3 .pull-right{
+		float:none !important;
+		margin-top:10px;
+	}
+
+	.media +.pull-right{
+		float:none !important;
+	}
+
+	.btn {
+		width:100% !important;
+
+		margin-bottom:10px;
+	}
+
+	.btn.ml-20{
+		margin-left:0;
+	}
+
+}
